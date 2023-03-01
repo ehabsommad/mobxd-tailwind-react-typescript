@@ -1148,7 +1148,305 @@ function App() {
 
       {/*====== END Contact ======*/}
 
+      {/*====== footer ======*/}
+      <footer className="bg-slate-50/80  pt-16">
+        <div className="mx-auto max-w-7xl px-8 md:6px">
+          {/* footer top*/}
+          <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
+            <div className="md:max-w-md lg:col-span-2">
+              <img
+                src={require("./resources/images/logo.png")}
+                alt="footer logo"
+                className="w-36"
+              />
+              <div className="mt-4 lg:max-w-sm">
+                <p className="text-left text-sm text-slate-500 mt-2">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam.
+                </p>
+                <p className="text-left text-sm text-slate-500 mt-2">
+                  Eaque ipsa quae ab illo inventore veritatis et quasi
+                  architecto beatae vitae dicta sunt explicabo.
+                </p>
+              </div>
+            </div>
+            <div className="grid row-gap-8 grid-cols-2 gap-5 md:grid-cols-4 lg:col-span-4">
+              <div className="div">
+                {/* head*/}
+                <p className="font-semibold text-slate-700">Category</p>
+                <ul className="mt-2 space-y-2">
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      News
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      World
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Games
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      References
+                    </a>
+                  </li>
+                </ul>
+              </div>
 
+              <div className="div">
+                {/* head*/}
+                <p className="font-semibold text-slate-700">Business</p>
+                <ul className="mt-2 space-y-2">
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Web
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      eCommerce
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Business
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Entertainment
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Portfolio
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="div">
+                {/* head*/}
+                <p className="font-semibold text-slate-700">Apples</p>
+                <ul className="mt-2 space-y-2">
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Media
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Brochure
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Nonprofit
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Educational
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Projects
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="div">
+                {/* head*/}
+                <p className="font-semibold text-slate-700">Cherry</p>
+                <ul className="mt-2 space-y-2">
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Infopreneur
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Personal
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Wiki
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-slate-500 transition-colors 
+                  duration-300 hover:text-slate-700"
+                    >
+                      Forum
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* End footer top*/}
+          {/* footer bottom*/}
+          <div className="flex flex-col justify-between border-t pt-8 sm:flex-row">
+            <p className="text-sm text-slate-500">
+              © Copyright 2022{" "}
+              <a href="#" className="text-slate-700 hover:text-blue-500">
+                Ehab Sommad
+              </a>{" "}
+              All rights reserved.
+            </p>
+            <div className="mt-4 flex items-center space-x-4 sm:mt-0">
+              <a href="#">
+                <div className="text-2xl text-slate-500 hover:text-blue-500 duration-300 md hydrated">
+                  <svg
+                    width="26"
+                    height="26"
+                    viewBox="0 0 26 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_818_3101)">
+                      <path
+                        d="M13.0005 0.52002C6.10791 0.52002 0.520508 6.10742 0.520508 13C0.520508 19.8926 6.10791 25.48 13.0005 25.48C19.8931 25.48 25.4805 19.8926 25.4805 13C25.4805 6.10742 19.8931 0.52002 13.0005 0.52002ZM15.9567 9.14422H14.0808C13.8585 9.14422 13.6115 9.43672 13.6115 9.82542V11.18H15.958L15.6031 13.1118H13.6115V18.9111H11.3976V13.1118H9.38911V11.18H11.3976V10.0438C11.3976 8.41362 12.5286 7.08892 14.0808 7.08892H15.9567V9.14422Z"
+                        fill="#185CFF"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_818_3101">
+                        <rect width="26" height="26" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </a>
+              <a href="#">
+                <div className="text-2xl text-slate-500 hover:text-blue-500 duration-300 md hydrated">
+                  <svg
+                    width="26"
+                    height="26"
+                    viewBox="0 0 26 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_818_3103)">
+                      <path
+                        d="M13.0005 0.52002C6.10791 0.52002 0.520508 6.10742 0.520508 13C0.520508 19.8926 6.10791 25.48 13.0005 25.48C19.8931 25.48 25.4805 19.8926 25.4805 13C25.4805 6.10742 19.8931 0.52002 13.0005 0.52002ZM18.077 10.7432C18.0822 10.8498 18.0835 10.9564 18.0835 11.0604C18.0835 14.3104 15.6122 18.0557 11.0908 18.0557C9.75479 18.0579 8.44656 17.6742 7.32341 16.9507C7.51451 16.9741 7.71081 16.9832 7.90971 16.9832C9.06151 16.9832 10.121 16.5919 10.9621 15.9315C10.4495 15.9215 9.95288 15.7517 9.54135 15.446C9.12982 15.1403 8.82393 14.7138 8.66631 14.2259C9.03441 14.2959 9.41361 14.2812 9.77521 14.183C9.21887 14.0705 8.71856 13.7691 8.35913 13.3298C7.99969 12.8905 7.80325 12.3404 7.80311 11.7728V11.7429C8.13461 11.9262 8.51421 12.038 8.91721 12.051C8.39565 11.7038 8.02643 11.1705 7.88507 10.5601C7.7437 9.94969 7.84087 9.30835 8.15671 8.76722C8.77415 9.52642 9.54415 10.1475 10.4168 10.5902C11.2895 11.033 12.2455 11.2875 13.2228 11.3373C13.0986 10.8099 13.152 10.2562 13.3749 9.76238C13.5978 9.2685 13.9776 8.86211 14.4553 8.60636C14.933 8.35062 15.4818 8.25986 16.0164 8.34819C16.551 8.43653 17.0414 8.699 17.4114 9.09482C17.9615 8.98598 18.4891 8.78419 18.9714 8.49812C18.7881 9.06769 18.4042 9.55135 17.8911 9.85922C18.3784 9.80053 18.8542 9.66952 19.3029 9.47052C18.9733 9.96438 18.5582 10.3954 18.077 10.7432V10.7432Z"
+                        fill="#185CFF"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_818_3103">
+                        <rect width="26" height="26" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </a>
+              <a href="#">
+                <div className="text-2xl text-slate-500 hover:text-blue-500 duration-300 md hydrated">
+                  <svg
+                    width="26"
+                    height="26"
+                    viewBox="0 0 26 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_818_3107)">
+                      <path
+                        d="M15.0844 12.7829L12.1646 11.4205C11.9098 11.3022 11.7005 11.4348 11.7005 11.7169V14.2831C11.7005 14.5652 11.9098 14.6978 12.1646 14.5795L15.0831 13.2171C15.3392 13.0975 15.3392 12.9025 15.0844 12.7829ZM13.0005 0.52002C6.10791 0.52002 0.520508 6.10742 0.520508 13C0.520508 19.8926 6.10791 25.48 13.0005 25.48C19.8931 25.48 25.4805 19.8926 25.4805 13C25.4805 6.10742 19.8931 0.52002 13.0005 0.52002ZM13.0005 18.07C6.61231 18.07 6.50051 17.4941 6.50051 13C6.50051 8.50592 6.61231 7.93002 13.0005 7.93002C19.3887 7.93002 19.5005 8.50592 19.5005 13C19.5005 17.4941 19.3887 18.07 13.0005 18.07Z"
+                        fill="#185CFF"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_818_3107">
+                        <rect width="26" height="26" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+          {/* End footer bottom*/}
+        </div>
+      </footer>
+      {/*====== END footer ======*/}
     </div>
   );
 }
