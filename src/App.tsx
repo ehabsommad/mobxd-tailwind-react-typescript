@@ -840,7 +840,158 @@ function App() {
       </section>
       {/*====== END Portfolio ======*/}
 
- 
+      {/*====== Blog ======*/}
+      <section className="py-16">
+        <div className="mx-auto max-w max-w-7xl px-8 md:px-6">
+          {/* heading text*/}
+          <div className="mb-5 sm:mb-10">
+            <p className=" text-left font-medium text-blue-500">Our Blog</p>
+            <h1 className="text-left text-2xl font-bold text-slate-700 sm:text-3xl">
+              From Our Latest Blog
+            </h1>
+          </div>
+          {/* wrapper*/}
+          <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
+            {/* single Blog*/}
+            <div className="w-full duration-200 hover:scale-95">
+              <div className="max-h-52 w-full overflow-hidden rounded-t-xl">
+                <img
+                  src={require("./resources/images/blog/blog-1.png")}
+                  alt="Blog img"
+                  className="w-full"
+                />
+              </div>
+              <div className="rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10">
+                <div className="div">
+                  <a
+                    href="#"
+                    className="mr-2 rounded-md bg-blue-50 px-3 py-1
+                    text-sm text-slate-600"
+                  >
+                    Services
+                  </a>
+                  <a
+                    href="#"
+                    className="block pt-4 font-medium capitalize
+                    text-slate-800 hover:text-blue-500"
+                  >
+                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit.
+                  </a>
+                </div>
+              </div>
+              <hr className="my-4 border-slate-100" />
+              <div className="flex">
+                <img
+                  src={require("./resources/images/blog/user-1.png")}
+                  alt="user img"
+                  className="mr-3 h-10 w-10 rounded-full object-cover"
+                />
+                <p className="text-sm font-semibold capitalize text-slate-600">
+                  Zahidul Hossain{" "}
+                  <span className="block text-xs text-slate-400">
+                    Web Designer
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            {/* single Blog*/}
+            <div className="w-full duration-200 hover:scale-95">
+              <div className="max-h-52 w-full overflow-hidden rounded-t-xl">
+                <img
+                  src={require("./resources/images/blog/blog-2.png")}
+                  alt="Blog img"
+                  className="w-full"
+                />
+              </div>
+              <div className="rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10">
+                <div className="div">
+                  <a
+                    href="#"
+                    className="mr-2 rounded-md bg-blue-50 px-3 py-1
+                    text-sm text-slate-600"
+                  >
+                    Services
+                  </a>
+                  <a
+                    href="#"
+                    className="mr-2 rounded-md bg-blue-50 px-3 py-1
+                    text-sm text-slate-600"
+                  >
+                    Design
+                  </a>
+                  <a
+                    href="#"
+                    className="block pt-4 font-medium capitalize
+                    text-slate-800 hover:text-blue-500"
+                  >
+                    Dolore Placeat Ullam Architecto Deleniti Maxime Laborum
+                  </a>
+                </div>
+              </div>
+              <hr className="my-4 border-slate-100" />
+              <div className="flex">
+                <img
+                  src={require("./resources/images/blog/user-2.png")}
+                  alt="user img"
+                  className="mr-3 h-10 w-10 rounded-full object-cover"
+                />
+                <p className="text-sm font-semibold capitalize text-slate-600">
+                  Zahidul Hossain{" "}
+                  <span className="block text-xs text-slate-400">
+                    Web Designer
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            {/* single Blog*/}
+            <div className="w-full duration-200 hover:scale-95">
+              <div className="max-h-52 w-full overflow-hidden rounded-t-xl">
+                <img
+                  src={require("./resources/images/blog/blog-3.png")}
+                  alt="Blog img"
+                  className="w-full"
+                />
+              </div>
+              <div className="rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10">
+                <div className="div">
+                  <a
+                    href="#"
+                    className=" mr-2 rounded-md bg-blue-50 px-3 py-1 text-sm text-slate-600"
+                  >
+                    Website
+                  </a>
+                  <a
+                    href="#"
+                    className="block pt-4 font-medium capitalize
+                    text-slate-800 hover:text-blue-500"
+                  >
+                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit.
+                  </a>
+                </div>
+              </div>
+              <hr className="my-4 border-slate-100" />
+              <div className="flex">
+                <img
+                  src={require("./resources/images/blog/user-3.png")}
+                  alt="user img"
+                  className="mr-3 h-10 w-10 rounded-full object-cover"
+                />
+                <p className="text-sm font-semibold capitalize text-slate-600">
+                  Zahidul Hossain{" "}
+                  <span className="block text-xs text-slate-400">
+                    Web Designer
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== END Blog ======*/}
+
+
     </div>
   );
 }
