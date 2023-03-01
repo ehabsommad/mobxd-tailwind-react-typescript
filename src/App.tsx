@@ -7,6 +7,11 @@ function App() {
   const onclickMneu = () =>{
     setToggle((prev)=>!prev)
   }
+  const [btnName, setBtnName] = useState("one")
+  const OnClickHandlerBtnFqa = (name:string) =>{
+    setBtnName(name)
+  }
+
   return (
     <div className="App">
       {/*====== header ======*/}
@@ -204,6 +209,95 @@ function App() {
       </section>
       {/*====== END hero ======*/}
 
+      {/*====== feature ======*/}
+      <div className="pb-16">
+        <div className="mx-auto max-w-7xl px-8 md:px-6">
+          {/* heading text*/}
+          <div className="mb-5 sm:mb-10">
+            <p className="text-left font-medium text-blue-500">Our Features</p>
+            <h1 className="text-left text-2xl font-bold text-slate-700 sm:text-3xl">
+              Provide Our Features
+            </h1>
+          </div>
+          {/* feature img*/}
+          <div className="md:flex md:justify-between md:gap-6 xl:gap-10">
+            <div className="mb-5 max-h-[600px] overflow-hidden rounded-lg md:mb-0 md:w-5/12">
+              <img
+                src={require("./resources/images/features/features.png")}
+                alt="feature img "
+                className="h-full scale-125 sm:w-full sm:object-cover"
+              />
+            </div>
+            <div className="md:w-7/12">
+              <div className="mb-16 flex flex-col">
+                <p className="text-left mb-3 text-slate-500">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam quod aliquam quis, nesciunt alias illo totam dicta,
+                  officia eum veritatis non dolor, minima illum perferendis
+                  facilis. Possimus sit mollitia minima!
+                </p>
+
+                <p className="text-left mb-10 text-slate-500">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nisi, necessitatibus? Labore voluptatibus cupiditate fugit
+                  libero magni id laudantium rem distinctio, iste ipsam facilis,
+                  eaque illum architecto temporibus repellat! Consectetur, quos.
+                </p>
+
+                <button
+                  className="w-full rounded-md bg-blue-500 px-8 py-2.5 font-semibold
+                text-white shadow-md shadow-blue-500/20 hover:bg-blue-600 duration-200
+                  md:w-max"
+                >
+                  Get Started
+                </button>
+              </div>
+
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="flex flex-col items-center justify-center rounded-xl bg-white px-4 py-8 shadow-lg">
+                  <img
+                    className="mb-3 w-16"
+                    src={require("./resources/images/features/icon (1).png")}
+                    alt=""
+                  />
+                  <h3 className="text-lg font-bold text-slate-600">
+                    Web Design
+                  </h3>
+                  <a href="#" className="text-sm text-blue-500">
+                    Learn more
+                  </a>
+                </div>
+                <div className="flex flex-col items-center justify-center rounded-xl bg-white px-4 py-8 shadow-lg">
+                  <img
+                    className="mb-3 w-16"
+                    src={require("./resources/images/features/icon (2).png")}
+                    alt=""
+                  />
+                  <h3 className="text-lg font-bold text-slate-600">
+                    Automation
+                  </h3>
+                  <a href="#" className="text-sm text-blue-500">
+                    Learn more
+                  </a>
+                </div>
+                <div className="flex flex-col items-center justify-center rounded-xl bg-white px-4 py-8 shadow-lg">
+                  <img
+                    className="mb-3 w-16"
+                    src={require("./resources/images/features/icon (3).png")}
+                    alt=""
+                  />
+                  <h3 className="text-lg font-bold text-slate-600">
+                    Infographics
+                  </h3>
+                  <a href="#" className="text-sm text-blue-500">
+                    Learn more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
   );
