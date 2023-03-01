@@ -509,7 +509,159 @@ function App() {
       </section>
       {/*====== END service ======*/}
 
- 
+      {/*====== FAQ ======*/}
+      <section className="py-16">
+        <div className="mx-auto max-w-7xl px-8 md:px-6">
+          {/* heading text*/}
+          <div className="mb-5 sm:mb-10">
+            <p className=" text-left font-medium text-blue-500">Our FAQ</p>
+            <h1 className="text-left text-2xl font-bold text-slate-700 sm:text-3xl">
+              Frequently Asked Questions
+            </h1>
+            {/* wapper*/}
+            <div className="md:flex md:justify-between md:gap-6">
+              <div className="mb-8 flex justify-center md:mb-0 md:w-5/12">
+                <img
+                  src={require("./resources/images/faq.png")}
+                  alt="faq images"
+                  className="max-h-[500px] md:max-h-max"
+                />
+              </div>
+              <div className="md:w-6/12">
+                <div className="">
+                  <ul>
+                    <li className="relative mb-5">
+                      <button
+                        type="button"
+                        className="w-full rounded-lg bg-blue-50 px-8 py-6 text-left"
+                        onClick={()=>OnClickHandlerBtnFqa("one")}
+                      >
+                        <div className=" flex items-center justify-between">
+                          <h4 className="font-medium text-slate-600">
+                            Lorem ipsum dolor sit, amet consectetur?
+                          </h4>
+                          <div className="w-8 text-lg text-blue-500">
+                            <ChevronDownCircleOutline
+                              color={"#00000"}
+                              height="35px"
+                              width="35px"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                      {btnName}
+                      {btnName === "one" &&
+                      <div className={`relative max-h-0 overflow-hidden rounded-b-lg bg-blue-50/30 transition-all duration-500`}>
+                      <div className="p-6">
+                        <p className="text-slate-500">
+                          ipsum! Assumenda, dolorem nihil. Commodi, qui?
+                          Officiis provident, cumque perspiciatis magni
+                          commodi rem nihil,
+                        </p>
+                      </div>
+                    </div>}
+                      
+                    </li>
+
+                    <li className="relative mb-5">
+                      <button 
+                        onClick={()=>OnClickHandlerBtnFqa('two')}
+                        type="button"
+                        className="w-full rounded-lg bg-blue-50 px-8 py-6 text-left"
+                      >
+                        <div className=" flex items-center justify-between">
+                          <h4 className="font-medium text-slate-600">
+                            Lorem ipsum dolor sit, amet consectetur?
+                          </h4>
+                          <div className="w-8 text-lg text-blue-500">
+                            <ChevronDownCircleOutline
+                              color={"#00000"}
+                              height="35px"
+                              width="35px"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                      {btnName === "two" &&
+                      <div className={`relative max-h-0 overflow-hidden rounded-b-lg bg-blue-50/30 transition-all duration-500`}>
+                        <div className="p-6">
+                          <p className="text-slate-500">
+                            ipsum! Assumenda, dolorem nihil. Commodi, qui?
+                            Officiis provident, cumque perspiciatis magni
+                            commodi rem nihil,
+                          </p>
+                        </div>
+                      </div>}
+                      
+                    </li>
+
+                    <li className="relative mb-5">
+                      <button
+                        type="button"
+                        className="w-full rounded-lg bg-blue-50 px-8 py-6 text-left"
+                      >
+                        <div className=" flex items-center justify-between">
+                          <h4 className="font-medium text-slate-600">
+                            Lorem ipsum dolor sit, amet consectetur?
+                          </h4>
+                          <div className="w-8 text-lg text-blue-500">
+                            <ChevronDownCircleOutline
+                              color={"#00000"}
+                              height="35px"
+                              width="35px"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                      <div className="relative max-h-0 overflow-hidden rounded-b-lg bg-blue-50/30 transition-all duration-500">
+                        <div className="p-6">
+                          <p className="text-slate-500">
+                            ipsum! Assumenda, dolorem nihil. Commodi, qui?
+                            Officiis provident, cumque perspiciatis magni
+                            commodi rem nihil,
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className="relative mb-5">
+                      <button
+                        type="button"
+                        className="w-full rounded-lg bg-blue-50 px-8 py-6 text-left"
+                      >
+                        <div className=" flex items-center justify-between">
+                          <h4 className="font-medium text-slate-600">
+                            Lorem ipsum dolor sit, amet consectetur?
+                          </h4>
+                          <div className="w-8 text-lg text-blue-500">
+                            <ChevronDownCircleOutline
+                              color={"#00000"}
+                              height="35px"
+                              width="35px"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                      <div className="relative max-h-0 overflow-hidden rounded-b-lg bg-blue-50/30 transition-all duration-500">
+                        <div className="p-6">
+                          <p className="text-slate-500">
+                            ipsum! Assumenda, dolorem nihil. Commodi, qui?
+                            Officiis provident, cumque perspiciatis magni
+                            commodi rem nihil,
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== END FAQ ======*/}
+
+
     </div>
   );
 }
