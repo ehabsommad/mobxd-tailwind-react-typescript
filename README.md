@@ -38,9 +38,6 @@ git clone https://github.com/ehabsommad/mobxd-tailwind-react-typescript.git
 After the installtion complete open the project using VS Code or any preference editor then open the terminal and run the following code
 
 ```bash
-npx create-react-app my-project--template typescript
-npm install -D tailwindcss
-npx tailwindcss init
 npm install && npm start
 ```
 ## ⛏️ Built With
