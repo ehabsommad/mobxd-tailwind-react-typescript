@@ -1,7 +1,7 @@
 # Mobxd-Tailwind-ReactJs-Typescript
 
 ## 📝 [Table of Content](#about)
----
+
 - [About](#about)
 - [Demo](#demo)
 - [Getting Started](#getting_started)
