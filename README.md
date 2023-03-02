@@ -9,15 +9,15 @@
 - [Autor](#autor)
 
 ## 🧐 About <a name = "about"></a> 
-___
+
 Landing Page Mobxd app using [ReactJs.](https://reactjs.org/)
 
 ## 🎥 Demo <a name = "demo"></a>
-___
+
 [Mobxd](https://mobxd-tailwind-react-typescript-sigma.vercel.app/)
 
 ## 🏁 Getting Started
-___
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 **Prerequisites**
@@ -44,11 +44,11 @@ npx tailwindcss init
 npm install && npm start
 ```
 ## ⛏️ Built With
-___
+
 * ReactJs - a JavaScript library for building user interfaces
 * Typescript - is JavaScript with added syntax for types
 * TailwindCss -  is a design system implementation in pure CSS.
 
 ## ✍️ Autor
-___
+
 * Ehab Sommad 
