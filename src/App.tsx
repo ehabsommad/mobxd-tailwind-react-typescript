@@ -992,6 +992,163 @@ function App() {
       </section>
       {/*====== END Blog ======*/}
 
+      {/*====== Contact ======*/}
+      <section className="relative overflow-hidden py-16">
+        <img
+          src={require("./resources/images/effect.png")}
+          alt="effect"
+          className="absolute bottom-[-400px] -z-10
+        w-full opacity-[0.2]"
+        />
+        <div className="mx-auto max-w-7xl px-8 md:px-6">
+          <div className="-mx-4 flex flex-wrap lg:justify-between">
+            {/**left info */}
+            <div className="w-full px-4 md:w-1/2 xl:w-6/12">
+              <div className="mb-12 max-w[570px] lg:mb-0">
+                <p className="text-left font-medium text-blue-500">
+                  Contact Us
+                </p>
+                <h1 className="text-left  mb-3 text-2xl font-bold text-slate-700 sm:text-3xl">
+                  GET IN TOUCH WITH US
+                </h1>
+                <p className="text-left text-slate-500 mb-8">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Facere inventore illo porro molestiae maxime magni natus illum
+                  commodi! Modi, quisquam?
+                </p>
+                {/**address */}
+                <div className="mb-8 flex w-full max-w-[420px] items-center rounded-lg bg-white p-4 shadow-md shadow-blue-500/10">
+                  <div
+                    className="mr-6 flex h-[60px] w-full max-w-[60px] 
+                  items-center justify-center overflow-hidden rounded
+                  bg-blue-500 bg-opacity-5 text-blue-500 sm:h-[70px] sm:max-w-[70px]"
+                  >
+                    <div className="text-3xl">
+                      <LocationOutline
+                        color={"#00000"}
+                        height="35px"
+                        width="35px"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-full">
+                    <h4 className="text-left mb-1 text-xl font-bold text-slate-700">
+                      Our Location
+                    </h4>
+                    <p className="text-left text-base text-slate-400">
+                      4236 Woodland Terrace. Sacramento. California
+                    </p>
+                  </div>
+                </div>
+                {/**Phone */}
+                <div className="mb-8 flex w-full max-w-[420px] items-center rounded-lg bg-white p-4 shadow-md shadow-blue-500/10">
+                  <div
+                    className="mr-6 flex h-[60px] w-full max-w-[60px] 
+                  items-center justify-center overflow-hidden rounded
+                  bg-blue-500 bg-opacity-5 text-blue-500 sm:h-[70px] sm:max-w-[70px]"
+                  >
+                    <div className="text-3xl">
+                      <CallOutline
+                        color={"#00000"}
+                        height="35px"
+                        width="35px"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-full">
+                    <h4 className="text-left mb-1 text-xl font-bold text-slate-700">
+                      Phone Number
+                    </h4>
+                    <p className="text-left text-base text-slate-400">
+                      (+62)01 234 567 8912
+                    </p>
+                  </div>
+                </div>
+                {/**mail */}
+                <div className="mb-8 flex w-full max-w-[420px] items-center rounded-lg bg-white p-4 shadow-md shadow-blue-500/10">
+                  <div
+                    className="mr-6 flex h-[60px] w-full max-w-[60px] 
+                  items-center justify-center overflow-hidden rounded
+                  bg-blue-500 bg-opacity-5 text-blue-500 sm:h-[70px] sm:max-w-[70px]"
+                  >
+                    <div className="text-3xl">
+                      <MailOutline
+                        color={"#00000"}
+                        height="35px"
+                        width="35px"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-full">
+                    <h4 className="text-left mb-1 text-xl font-bold text-slate-700">
+                      Email Address
+                    </h4>
+                    <p className="text-left text-base text-slate-400">
+                      company@gmail.com
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/**right info  */}
+            <div className="w-full px-4 md:w-1/2 xl:w-5/12">
+              <div className="relative rounded-lg bg-white p-8 shadow-lg shadow-blue-500/10 sm:p-12">
+                <form action="">
+                  <div className="mb-6">
+                    <input
+                      type="text"
+                      placeholder="Your Name"
+                      className="w-full 
+                    rounded-lg border border-blue-500/10 px-4 py-3 
+                    text-slate-500 focus:border-blue-500 focus:outline-none"
+                    />
+                  </div>
+                  <div className="mb-6">
+                    <input
+                      type="email"
+                      placeholder="Your Email"
+                      className="w-full 
+                    rounded-lg border border-blue-500/10 px-4 py-3 
+                    text-slate-500 focus:border-blue-500 focus:outline-none"
+                    />
+                  </div>
+                  <div className="mb-6">
+                    <input
+                      type="password"
+                      placeholder="Your Password"
+                      className="w-full 
+                    rounded-lg border border-blue-500/10 px-4 py-3 
+                    text-slate-500 focus:border-blue-500 focus:outline-none"
+                    />
+                  </div>
+                  <div className="mb-6">
+                    <textarea
+                      name="message"
+                      rows={6}
+                      className="resize-none w-full 
+                    rounded-lg border border-blue-500/10 px-4 py-3 
+                    text-slate-500 focus:border-blue-500 focus:outline-none"
+                    placeholder='Message'
+                    ></textarea>
+                  </div>
+                  <div className="div">
+                    <button
+                      type="submit"
+                      className="w-full rounded border border-blue-300 
+                    bg-blue-500 p-3 text-white transition-all
+                    hover:bg-opacity-90" 
+                    >
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== END Contact ======*/}
+
 
     </div>
   );
