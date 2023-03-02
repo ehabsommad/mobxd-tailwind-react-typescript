@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       {/*====== header ======*/}
-      <header className="absolute sticky left-0 top-0 z-50 bg-white/90 w-full backdrop-blur">
+      <header className=" sticky left-0 top-0 z-50 bg-white/90 w-full backdrop-blur">
         <div className="mx-auto h-[90px] max-w-7xl px-8 md:px-6">
           <div
             className="relative flex h-full items-center
@@ -36,7 +36,10 @@ function App() {
             {/*menu*/}
             <div className="flex w-full items-center justify-between">
               <nav
-                className={`absolute right-0 top-[90px] w-full max-w-[350px] rounded-lg border border-blue-200 bg-white py-5 px-6 shadow-lg shadow-blue-400/5 transition-all lg:static lg:block lg:max-w-full lg:border-none lg:shadow-none lg:bg-transparent lg:px-0 lg:py-0 ${
+                className={`absolute right-0 top-[90px] w-full max-w-[350px] rounded-lg border
+                border-blue-200 bg-white py-5 px-6 shadow-lg shadow-blue-400/5 
+                transition-all lg:static lg:block lg:max-w-full lg:border-none lg:shadow-none 
+                lg:bg-transparent lg:px-0 lg:py-0 ${
                   !toggle && "hidden"
                 }`}
               >
@@ -324,8 +327,6 @@ function App() {
                     <div className="text-white">
                       <BriefcaseOutline
                         color={"currentColor"}
-                        height="35px"
-                        width="35px"
                       />
                     </div>
                   </div>
@@ -338,8 +339,6 @@ function App() {
                     <div className="text-white">
                       <CubeOutline
                         color={"currentColor"}
-                        height="35px"
-                        width="35px"
                       />
                     </div>
                   </div>
@@ -354,8 +353,6 @@ function App() {
                     <div className="text-white">
                       <MailUnreadOutline
                         color={"currentColor"}
-                        height="35px"
-                        width="35px"
                       />
                     </div>
                   </div>
@@ -386,284 +383,6 @@ function App() {
         </div>
       </section>
       {/*====== END about ======*/}
-
-      {/*====== service ======*/}
-      <section className="py-16">
-        <div className="mx-auto max-w-7xl px-8 md:px-6">
-          {/* heading text*/}
-          <div className="mb-10 text-center">
-            <span className="font-medium text-blue-500"> Our Services</span>
-            <h1 className="text-2xl font-bold text-slate-700 sm:text-3xl">
-              Provide Awesome Services
-            </h1>
-            <p className="mx-auto max-w-2 mt-2 text-slate-500">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
-              veritatis itaque repellat quidem voluptas. Voluptatum.
-            </p>
-          </div>
-
-          {/* box wrapper*/}
-          <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 xl:gap-8">
-            <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500">
-              <div className="text-blue-500 text-[55px] duration-200 group-hover:text-white">
-                <BarChartOutline
-                  color={"currentColor"}
-                  height="35px"
-                  width="35px"
-                />
-              </div>
-              <h4 className="mt-3 mb-1 text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                Crafted for Startups
-              </h4>
-              <p className="text-center text-sm text-slate-500 duration-200 group-hover:text-blue-200">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                accusamus nihil veritatis ad. Odit, veritatis!
-              </p>
-            </div>
-
-            <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 bg-blue-500">
-              <div className=" text-[55px] duration-200 text-white">
-                <ExtensionPuzzleOutline
-                  color={"currentColor"}
-                  height="35px"
-                  width="35px"
-                />
-              </div>
-              <h4 className="mt-3 mb-1 text-[17px] font-semibold  duration-200 text-white">
-                Fully Customizable
-              </h4>
-              <p className="text-center text-sm  duration-200 text-blue-200">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                accusamus nihil veritatis ad. Odit, veritatis!
-              </p>
-            </div>
-
-            <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500">
-              <div className="text-blue-500 text-[55px] duration-200 group-hover:text-white">
-                <SpeedometerOutline
-                  color={"currentColor"}
-                  height="35px"
-                  width="35px"
-                />
-              </div>
-              <h4 className="mt-3 mb-1 text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                Speed Optimized
-              </h4>
-              <p className="text-center text-sm text-slate-500 duration-200 group-hover:text-blue-200">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                accusamus nihil veritatis ad. Odit, veritatis!
-              </p>
-            </div>
-
-            <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500">
-              <div className="text-blue-500 text-[55px] duration-200 group-hover:text-white">
-                <MedalOutline
-                  color={"currentColor"}
-                  height="35px"
-                  width="35px"
-                />
-              </div>
-              <h4 className="mt-3 mb-1 text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                High-quality Design
-              </h4>
-              <p className="text-center text-sm text-slate-500 duration-200 group-hover:text-blue-200">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                accusamus nihil veritatis ad. Odit, veritatis!
-              </p>
-            </div>
-
-            <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500">
-              <div className="text-blue-500 text-[55px] duration-200 group-hover:text-white">
-                <FileTrayFullOutline
-                  color={"currentColor"}
-                  height="35px"
-                  width="35px"
-                />
-              </div>
-              <h4 className="mt-3 mb-1 text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                All Essential Sections
-              </h4>
-              <p className="text-center text-sm text-slate-500 duration-200 group-hover:text-blue-200">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                accusamus nihil veritatis ad. Odit, veritatis!
-              </p>
-            </div>
-
-            <div className="group flex cursor-pointer flex-col items-center rounded-xl border border-blue-500/10 bg-white px-5 py-8 shadow-lg shadow-blue-300/10 duration-200 hover:bg-blue-500">
-              <div className="text-blue-500 text-[55px] duration-200 group-hover:text-white">
-                <CloudDownloadOutline
-                  color={"currentColor"}
-                  height="35px"
-                  width="35px"
-                />
-              </div>
-              <h4 className="mt-3 mb-1 text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                Regular Updates
-              </h4>
-              <p className="text-center text-sm text-slate-500 duration-200 group-hover:text-blue-200">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                accusamus nihil veritatis ad. Odit, veritatis!
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== END service ======*/}
-
-      {/*====== FAQ ======*/}
-      <section className="py-16">
-        <div className="mx-auto max-w-7xl px-8 md:px-6">
-          {/* heading text*/}
-          <div className="mb-5 sm:mb-10">
-            <p className=" text-left font-medium text-blue-500">Our FAQ</p>
-            <h1 className="text-left text-2xl font-bold text-slate-700 sm:text-3xl">
-              Frequently Asked Questions
-            </h1>
-            {/* wapper*/}
-            <div className="md:flex md:justify-between md:gap-6">
-              <div className="mb-8 flex justify-center md:mb-0 md:w-5/12">
-                <img
-                  src={require("./resources/images/faq.png")}
-                  alt="faq images"
-                  className="max-h-[500px] md:max-h-max"
-                />
-              </div>
-              <div className="md:w-6/12">
-                <div className="">
-                  <ul>
-                    <li className="relative mb-5">
-                      <button
-                        type="button"
-                        className="w-full rounded-lg bg-blue-50 px-8 py-6 text-left"
-                        onClick={()=>OnClickHandlerBtnFqa("one")}
-                      >
-                        <div className=" flex items-center justify-between">
-                          <h4 className="font-medium text-slate-600">
-                            Lorem ipsum dolor sit, amet consectetur?
-                          </h4>
-                          <div className="w-8 text-lg text-blue-500">
-                            <ChevronDownCircleOutline
-                              color={"#00000"}
-                              height="35px"
-                              width="35px"
-                            />
-                          </div>
-                        </div>
-                      </button>
-                      {btnName === "one" &&
-                      <div className={`relative  overflow-hidden rounded-b-lg bg-blue-50/30 transition-all duration-500`}>
-                      <div className="p-6">
-                        <p className="text-slate-500">
-                          ipsum! Assumenda, dolorem nihil. Commodi, qui?
-                          Officiis provident, cumque perspiciatis magni
-                          commodi rem nihil,
-                        </p>
-                      </div>
-                    </div>}
-                      
-                    </li>
-
-                    <li className="relative mb-5">
-                      <button 
-                        onClick={()=>OnClickHandlerBtnFqa('two')}
-                        type="button"
-                        className="w-full rounded-lg bg-blue-50 px-8 py-6 text-left"
-                      >
-                        <div className=" flex items-center justify-between">
-                          <h4 className="font-medium text-slate-600">
-                            Lorem ipsum dolor sit, amet consectetur?
-                          </h4>
-                          <div className="w-8 text-lg text-blue-500">
-                            <ChevronDownCircleOutline
-                              color={"#00000"}
-                              height="35px"
-                              width="35px"
-                            />
-                          </div>
-                        </div>
-                      </button>
-                      {btnName === "two" &&
-                      <div className={`relative overflow-hidden rounded-b-lg bg-blue-50/30 transition-all duration-500`}>
-                        <div className="p-6">
-                          <p className="text-slate-500">
-                            ipsum! Assumenda, dolorem nihil. Commodi, qui?
-                            Officiis provident, cumque perspiciatis magni
-                            commodi rem nihil,
-                          </p>
-                        </div>
-                      </div>}
-                      
-                    </li>
-
-                    <li className="relative mb-5">
-                      <button
-                        onClick={()=>OnClickHandlerBtnFqa('three')}
-                        type="button"
-                        className="w-full rounded-lg bg-blue-50 px-8 py-6 text-left"
-                      >
-                        <div className=" flex items-center justify-between">
-                          <h4 className="font-medium text-slate-600">
-                            Lorem ipsum dolor sit, amet consectetur?
-                          </h4>
-                          <div className="w-8 text-lg text-blue-500">
-                            <ChevronDownCircleOutline
-                              color={"#00000"}
-                              height="35px"
-                              width="35px"
-                            />
-                          </div>
-                        </div>
-                      </button>
-                      {btnName === 'three' &&
-                      <div className="relative  overflow-hidden rounded-b-lg bg-blue-50/30 transition-all duration-500">
-                        <div className="p-6">
-                          <p className="text-slate-500">
-                            ipsum! Assumenda, dolorem nihil. Commodi, qui?
-                            Officiis provident, cumque perspiciatis magni
-                            commodi rem nihil,
-                          </p>
-                        </div>
-                      </div>}
-                    </li>
-
-                    <li className="relative mb-5">
-                      <button
-                        onClick={()=>OnClickHandlerBtnFqa('four')}
-                        type="button"
-                        className="w-full rounded-lg bg-blue-50 px-8 py-6 text-left"
-                      >
-                        <div className=" flex items-center justify-between">
-                          <h4 className="font-medium text-slate-600">
-                            Lorem ipsum dolor sit, amet consectetur?
-                          </h4>
-                          <div className="w-8 text-lg text-blue-500">
-                            <ChevronDownCircleOutline
-                              color={"#00000"}
-                              height="35px"
-                              width="35px"
-                            />
-                          </div>
-                        </div>
-                      </button>
-                      {btnName === 'four' &&
-                      <div className="relative  overflow-hidden rounded-b-lg bg-blue-50/30 transition-all duration-500">
-                        <div className="p-6">
-                          <p className="text-slate-500">
-                            ipsum! Assumenda, dolorem nihil. Commodi, qui?
-                            Officiis provident, cumque perspiciatis magni
-                            commodi rem nihil,
-                          </p>
-                        </div>
-                      </div>}
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== END FAQ ======*/}
 
 
     </div>
