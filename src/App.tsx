@@ -662,6 +662,336 @@ function App() {
       </section>
       {/*====== END FAQ ======*/}
 
+      {/*====== Portfolio ======*/}
+      <section className="py-16">
+        <div className="mx-auto max-w-7xl px-8 md:px-6">
+          {/* heading text*/}
+          <div className="mb-10 text-center">
+            <p className=" font-medium text-blue-500">Our Portfolio</p>
+            <h1 className=" text-2xl font-bold text-slate-700 sm:text-3xl">
+              Our Recent Works
+            </h1>
+            <p className=" mx-auto max-w-2 mt-2 text-slate-500">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur deleniti sit dolor numquam non. Et.
+            </p>
+          </div>
+          {/* wrapper*/}
+          <div className="flex flex-col gap-5">
+            {/** col-1 */}
+            <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-4">
+              <div className="group relative h-40 overflow-hidden rounded-lg lg:h-52">
+                <img
+                  src={require("./resources/images/portfolio/p-1.png")}
+                  alt="portfolio img"
+                  className="absolute h-full w-full object-cover duration-200 group-hover:scale-125"
+                />
+                <div className="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                  <p className="text-sm font-semibold text-white">
+                    Type Your portfolio details{" "}
+                    <span className="text-xs text-slate-300 block">
+                      12 August 2025
+                    </span>
+                  </p>
+                  <div className="rounded-full bg-white p-1.5 text-lg text-blue-500 md hydrated">
+                    <Heart color={"currentColor"} height="35px" width="35px" />
+                  </div>
+                </div>
+              </div>
+              <div className="group relative h-40 overflow-hidden rounded-lg lg:h-52">
+                <img
+                  src={require("./resources/images/portfolio/p-2.png")}
+                  alt="portfolio img"
+                  className="absolute h-full w-full object-cover duration-200 group-hover:scale-125"
+                />
+                <div className="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                  <p className="text-sm font-semibold text-white">
+                    Type Your portfolio details{" "}
+                    <span className="text-xs text-slate-300 block">
+                      12 August 2025
+                    </span>
+                  </p>
+                  <div className="rounded-full bg-white p-1.5 text-lg text-blue-500 md hydrated">
+                    <Heart color={"currentColor"} height="35px" width="35px" />
+                  </div>
+                </div>
+              </div>
+              <div className="group relative h-40 overflow-hidden rounded-lg lg:h-52 sm:col-span-2">
+                <img
+                  src={require("./resources/images/portfolio/p-3.png")}
+                  alt="portfolio img"
+                  className="absolute h-full w-full object-cover duration-200 group-hover:scale-125"
+                />
+                <div className="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                  <p className="text-sm font-semibold text-white">
+                    Type Your portfolio details{" "}
+                    <span className="text-xs text-slate-300 block">
+                      12 August 2025
+                    </span>
+                  </p>
+                  <div className="rounded-full bg-white p-1.5 text-lg text-blue-500 md hydrated">
+                    <Heart color={"currentColor"} height="35px" width="35px" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*end col-1*/}
+
+            {/** col-2 */}
+            <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
+              <div className="group relative h-40 overflow-hidden rounded-lg lg:h-52 md:col-span-2">
+                <img
+                  src={require("./resources/images/portfolio/p-4.png")}
+                  alt="portfolio img"
+                  className="absolute h-full w-full object-cover duration-200 group-hover:scale-125"
+                />
+                <div className="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                  <p className="text-sm font-semibold text-white">
+                    Type Your portfolio details{" "}
+                    <span className="text-xs text-slate-300 block">
+                      12 August 2025
+                    </span>
+                  </p>
+                  <div className="rounded-full bg-white p-1.5 text-lg text-blue-500 md hydrated">
+                    <Heart color={"currentColor"} height="35px" width="35px" />
+                  </div>
+                </div>
+              </div>
+              <div className="group relative h-40 overflow-hidden rounded-lg lg:h-52">
+                <img
+                  src={require("./resources/images/portfolio/p-5.png")}
+                  alt="portfolio img"
+                  className="absolute h-full w-full object-cover duration-200 group-hover:scale-125"
+                />
+                <div className="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                  <p className="text-sm font-semibold text-white">
+                    Type Your portfolio details{" "}
+                    <span className="text-xs text-slate-300 block">
+                      12 August 2025
+                    </span>
+                  </p>
+                  <div className="rounded-full bg-white p-1.5 text-lg text-blue-500 md hydrated">
+                    <Heart color={"currentColor"} height="35px" width="35px" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*end col-2*/}
+
+            {/** col-3 */}
+            <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-4">
+              <div className="group relative h-40 overflow-hidden rounded-lg lg:h-52">
+                <img
+                  src={require("./resources/images/portfolio/p-6.png")}
+                  alt="portfolio img"
+                  className="absolute h-full w-full object-cover duration-200 group-hover:scale-125"
+                />
+                <div className="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                  <p className="text-sm font-semibold text-white">
+                    Type Your portfolio details{" "}
+                    <span className="text-xs text-slate-300 block">
+                      12 August 2025
+                    </span>
+                  </p>
+                  <div className="rounded-full bg-white p-1.5 text-lg text-blue-500 md hydrated">
+                    <Heart color={"currentColor"} height="35px" width="35px" />
+                  </div>
+                </div>
+              </div>
+              <div className="group relative h-40 overflow-hidden rounded-lg lg:h-52">
+                <img
+                  src={require("./resources/images/portfolio/p-7.png")}
+                  alt="portfolio img"
+                  className="absolute h-full w-full object-cover duration-200 group-hover:scale-125"
+                />
+                <div className="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                  <p className="text-sm font-semibold text-white">
+                    Type Your portfolio details{" "}
+                    <span className="text-xs text-slate-300 block">
+                      12 August 2025
+                    </span>
+                  </p>
+                  <div className="rounded-full bg-white p-1.5 text-lg text-blue-500 md hydrated">
+                    <Heart color={"currentColor"} height="35px" width="35px" />
+                  </div>
+                </div>
+              </div>
+              <div className="group relative h-40 overflow-hidden rounded-lg lg:h-52 sm:col-span-2">
+                <img
+                  src={require("./resources/images/portfolio/p-8.png")}
+                  alt="portfolio img"
+                  className="absolute h-full w-full object-cover duration-200 group-hover:scale-125"
+                />
+                <div className="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                  <p className="text-sm font-semibold text-white">
+                    Type Your portfolio details{" "}
+                    <span className="text-xs text-slate-300 block">
+                      12 August 2025
+                    </span>
+                  </p>
+                  <div className="rounded-full bg-white p-1.5 text-lg text-blue-500 md hydrated">
+                    <Heart color={"currentColor"} height="35px" width="35px" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*end col-3*/}
+          </div>
+        </div>
+      </section>
+      {/*====== END Portfolio ======*/}
+
+      {/*====== Blog ======*/}
+      <section className="py-16">
+        <div className="mx-auto max-w max-w-7xl px-8 md:px-6">
+          {/* heading text*/}
+          <div className="mb-5 sm:mb-10">
+            <p className=" text-left font-medium text-blue-500">Our Blog</p>
+            <h1 className="text-left text-2xl font-bold text-slate-700 sm:text-3xl">
+              From Our Latest Blog
+            </h1>
+          </div>
+          {/* wrapper*/}
+          <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
+            {/* single Blog*/}
+            <div className="w-full duration-200 hover:scale-95">
+              <div className="max-h-52 w-full overflow-hidden rounded-t-xl">
+                <img
+                  src={require("./resources/images/blog/blog-1.png")}
+                  alt="Blog img"
+                  className="w-full"
+                />
+              </div>
+              <div className="rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10">
+                <div className="flow-root">
+                  <a
+                    href="#"
+                    className="mr-2 rounded-md bg-blue-50 px-3 py-1
+                    text-sm text-slate-600 float-left"
+                  >
+                    Services
+                  </a>
+                  <a
+                    href="#"
+                    className="block pt-4 font-medium capitalize
+                    text-slate-800 hover:text-blue-500 float-left text-left"
+                  >
+                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit.
+                  </a>
+                </div>
+              </div>
+              <hr className="my-4 border-slate-100" />
+              <div className="flex">
+                <img
+                  src={require("./resources/images/blog/user-1.png")}
+                  alt="user img"
+                  className="mr-3 h-10 w-10 rounded-full object-cover"
+                />
+                <p className="text-sm font-semibold capitalize text-slate-600 text-left">
+                  Zahidul Hossain{" "}
+                  <span className="block text-xs text-slate-400 text-left">
+                    Web Designer
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            {/* single Blog*/}
+            <div className="w-full duration-200 hover:scale-95">
+              <div className="max-h-52 w-full overflow-hidden rounded-t-xl">
+                <img
+                  src={require("./resources/images/blog/blog-2.png")}
+                  alt="Blog img"
+                  className="w-full"
+                />
+              </div>
+              <div className="rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10">
+                <div className="flow-root">
+                  <a
+                    href="#"
+                    className="mr-2 rounded-md bg-blue-50 px-3 py-1
+                    text-sm text-slate-600 float-left"
+                  >
+                    Services
+                  </a>
+                  <a
+                    href="#"
+                    className="mr-2 rounded-md bg-blue-50 px-3 py-1
+                    text-sm text-slate-600 float-left"
+                  >
+                    Design
+                  </a>
+                  <a
+                    href="#"
+                    className="block pt-4 font-medium capitalize
+                    text-slate-800 hover:text-blue-500 float-left text-left "
+                  >
+                    Dolore Placeat Ullam Architecto Deleniti Maxime Laborum
+                  </a>
+                </div>
+              </div>
+              <hr className="my-4 border-slate-100" />
+              <div className="flex">
+                <img
+                  src={require("./resources/images/blog/user-2.png")}
+                  alt="user img"
+                  className="mr-3 h-10 w-10 rounded-full object-cover"
+                />
+                <p className="text-sm font-semibold capitalize text-slate-600 text-left">
+                  Zahidul Hossain{" "}
+                  <span className="block text-xs text-slate-400 text-left">
+                    Web Designer
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            {/* single Blog*/}
+            <div className="w-full duration-200 hover:scale-95">
+              <div className="max-h-52 w-full overflow-hidden rounded-t-xl">
+                <img
+                  src={require("./resources/images/blog/blog-3.png")}
+                  alt="Blog img"
+                  className="w-full"
+                />
+              </div>
+              <div className="rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10">
+                <div className="flow-root">
+                  <a
+                    href="#"
+                    className=" mr-2 rounded-md bg-blue-50 px-3 py-1 text-sm text-slate-600 float-left"
+                  >
+                    Website
+                  </a>
+                  <a
+                    href="#"
+                    className="block pt-4 font-medium capitalize
+                    text-slate-800 hover:text-blue-500 float-left text-left"
+                  >
+                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit.
+                  </a>
+                </div>
+              </div>
+              <hr className="my-4 border-slate-100" />
+              <div className="flex">
+                <img
+                  src={require("./resources/images/blog/user-3.png")}
+                  alt="user img"
+                  className="mr-3 h-10 w-10 rounded-full object-cover"
+                />
+                <p className="text-sm font-semibold capitalize text-slate-600 text-left">
+                  Zahidul Hossain{" "}
+                  <span className="block text-xs text-slate-400 text-left">
+                    Web Designer
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== END Blog ======*/}
+
 
     </div>
   );
