@@ -40,13 +40,12 @@ function App() {
                 border-blue-200 bg-white py-5 px-6 shadow-lg shadow-blue-400/5 
                 transition-all lg:static lg:block lg:max-w-full lg:border-none lg:shadow-none 
                 lg:bg-transparent lg:px-0 lg:py-0 ${
-                  !toggle && "hidden"
+                  !toggle && "hidden lg:block " 
                 }`}
               >
                 <ul
-                  className={`flex flex-col justify-center gap-8 lg:flex-row ${
-                    !toggle && "hidden"
-                  } `}
+                  className='flex flex-col justify-center gap-8 lg:flex-row '
+                  
                 >
                   <li>
                     <a
@@ -155,7 +154,8 @@ function App() {
               shadow-blue-500/10 duration-200 sm:ml-4 sm:mt-0 sm:w-auto float-left"
               >
                 Register Now
-              </button></div>
+              </button>
+              </div>
               {/** brand */}
               <div className="mt-6 flex flex-wrap gap-4 ">
                 <img
